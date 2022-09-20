@@ -1,0 +1,95 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: white;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+  background-color: rgba(0, 0, 255, 0.055);
+}
+
+button {
+  background-color: rgba(0, 0, 255, 0.336);
+  font-size: 18px;
+  border-radius: 5px;
+  color: white;
+}
+
+button:hover {
+  background-color: rgba(255, 0, 0, 0.336);
+}
+
+.botaoAdd {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+
+
+.botaoApagarPontos {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+
+input {
+  color: blue;
+  font-size: 28px;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.tdPontos {
+  font-weight: 900;
+}
+

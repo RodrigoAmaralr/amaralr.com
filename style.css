@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+    font-family: 'Roboto', sans-serif;
+}   
+
+.container{
+    background: #ECF4FF;
+    color: #1C1C1C; /* cor do texto*/
+    margin: 10px;   /* Distancia para elementos externo Body*/
+    padding: 10px;  /* Distancia para elementos interno */
+    border-radius: 20px;
+    box-shadow: 30px 30px 30px #0E1D2F; /* sombra  */
+}
+
+.perfil{
+    margin: 10px;   /* Distancia para elementos externo Body*/
+    display: flex;
+    align-items: center;
+}
+
+.perfil-foto{
+    border-radius: 460px;
+    max-height: 160px;
+    box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.25);
+}
+
+.perfil-foto:hover{
+    max-height: 170px;
+    box-shadow: 0px 14px 14px rgba(0, 0, 255, 0.596);
+}
+
+.titulo{
+    margin-left: 16px;
+}
+
+.titulo h1{ /*Vai estilizar só h1 dentro do titulo*/
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulo h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(23deg, #9cc8fc  27%, #499cfe 96%);
+    box-shadow: 0px 20px 20px rgb(133, 133, 133);
+    border-radius: 15px;
+}
+
+.tituloProjetos{
+    margin-left: 0px;
+    font-weight: 700;
+    font-size: 36px;
+    /* color: #ECF4FF; */
+}
+
+.links-Projetos{
+    margin-left: 0px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.links-Projetos:hover{
+    font-weight: 700;
+}
+
+.image{
+    border-radius: 15px;
+    margin: 2px;
+    padding: 5px;
+    box-shadow: 0px 20px 20px rgb(133, 133, 133);
+
+}
+
+.imageLinks{
+    background-color: black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0px 10px 10px rgb(133, 133, 133);
+    max-height: 25px;
+}
+
+.imageLinks:hover{
+    background: blue;
+    box-shadow: 0px 10px 10px rgba(0, 0, 255, 0.596);
+    max-height: 26px;
+}
+
+.footer-infor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ECF4FF;
+}

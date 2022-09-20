@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+    font-family: 'Roboto', sans-serif;
+}   
+
+.container{
+    background: #ECF4FF;
+    color: #1C1C1C; /* cor do texto*/
+    margin: 64px;   /* Distancia para elementos externo Body*/
+    padding: 64px;  /* Distancia para elementos interno*/
+    border-radius: 20px;
+    box-shadow: 30px 30px 30px #0E1D2F; /* sombra  */
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil{
+    display: flex;
+    
+}
+
+.perfil-foto{
+    border-radius: 460px;
+    max-height: 160px;
+    box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.25);
+}
+
+.titulo{
+    margin-left: 16px;
+}
+
+.titulo h1{ /*Vai estilizar só h1 dentro do titulo*/
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulo h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tema button{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 8px 16px;
+    background: #ecf4ff;
+    border-radius: 100px;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 20px;
+    padding: 30px;
+    background: linear-gradient(23deg, #9cc8fc  27%, #499cfe 96%);
+    box-shadow: 0px 20px 20px rgb(133, 133, 133);
+    border-radius: 15px;
+}
+
+.image{
+    border-radius: 15px;
+    margin: 2px;
+    padding: 5px;
+    box-shadow: 0px 20px 20px rgb(133, 133, 133);
+
+}
+
+.imageLinks{
+    background-color: black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0px 10px 10px rgb(133, 133, 133);
+    max-height: 25px;
+}
+
+.imageLinks:hover{
+    background: blue;
+    box-shadow: 0px 10px 10px rgba(0, 0, 255, 0.596);
+}
+
+.projetos-titulo{
+    list-style: nono;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.projteos-item{
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.projteos-item a{
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.dark {
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container{
+    background: #333439;
+    color: #f6f6f6;
+}
+
+.dark .projetos{
+    color: #1C1C1C;
+}
+
+.dark .tema button{
+    background: #1C1C1C;
+    color: #ffffff;
+    border: 2px solid #f7f7f7;
+}

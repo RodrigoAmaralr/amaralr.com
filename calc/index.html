@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Imersão Dev Alura - Aula 01</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+      <h1 class="page-title">
+        Calculadora</h1>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  
+    <fieldset>
+      <legend>Média de nota das provas!</legend>
+      <div>
+        Nota do 1° bimestre <input id="n1" type="number" value=0> <br />
+        Nota do 2° bimestre  <input id="n2" type="number" value=0> <br />
+        Nota do 3° bimestre  <input id="n3" type="number" value=0> <br />
+        Nota do 4° bimestre  <input id="n4" type="number" value=0> <br />
+        Resultado: <output id="Resultado"> <output />
+      </div>
+      <button onclick="mediaDasProvas()">Calcular Media</button>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Conversor de temperatura</legend>
+        <div>
+          <input type="radio" id="radioC" name="temp" value="ctof" checked>
+          <label for="ctof">Celsius para Fahrenheit</label>
+        </div>
+  
+        <div>
+          <input type="radio" id="radioF" name="temp" value="ftoc">
+          <label for="ftoc">Fahrenheit para Celsius</label>
+        </div>
+      <div>
+        Temperatura  <input id="valorTemp" type="number" value=0 > <br />
+        Resultado: <output id="resultadoTemp"> <output />
+      </div>
+        
+       <button onclick="conversorDeTemperatura()">Converter Temperatura</button>
+    </fieldset>
+      
+      <fieldset>
+        <legend>Conversor de Anos Luz para Km</legend>
+        <div>
+        Valor em Anos Luz  <input id="valorEmAnosLuz" type="number" value=0 > <br />
+        Resultado: <output id="resultadoEmkm"> <output />
+        </div>
+        <button onclick="conversorAnosLuzParaKm()">Converter</button>
+      </fieldset>
+  
+  </body>
+  
+  </html>
