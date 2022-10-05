@@ -12,14 +12,44 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>CALCULAR ARROZ</h1>
+            <h1>CALCULAR ARROZ PARA SEMANA</h1>
         </div>
-        <div class="dados">
+        <div>
             <p>Quantidade de dias </p>
-            <input id="qtdDias" type="number"></br>
+            <form>
+                <select class="dados" id="qtdDias">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+
+                </select>
+            </form></br>
+            <!-- <input id="qtdDias" type="number"></br> -->
 
             <p>Quantidade de pessoas</p>
-            <input id="qtdPessoas" type="number"></br>
+            <form>
+                <select class="dados" id="qtdPessoas">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+
+                </select>
+            </form></br>
+            <!-- <input id="qtdPessoas" type="number"></br> -->
 
             <p>Quantas gramas de arroz por pessoa</p>
             <input id="qtdArroz" type="number"></br>
@@ -27,6 +57,8 @@
             <p id="result"></p>
             <button onclick="calcRice()">Calcular</button>
             <script type="text/javascript" src="script.js"></script>
+
+
         </div>
     </div>
 </body>
